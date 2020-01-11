@@ -1,0 +1,14 @@
+mkdir cli_tmp
+touch cli_tmp/je_suis_dans_tmp.text
+touch in_cli_tmp.ppt
+mkdir in_cli_tmp
+rm je_suis_dans_tmp.text
+rm -r in_cli_tmp
+mkdir grand_parent parent grand_frere grande_soeur ami connaissances
+mv bachir.txt  ../ami
+cp -r ami parent
+rm bachir.txt ( ce fichier  est nommer bob dans l'exercice, correction a faire )
+rm ami/bachir.txt
+pwd
+cd ~
+rm -r cli_tmp
